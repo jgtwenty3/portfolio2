@@ -81,20 +81,26 @@ const TechStack = () => {
             </BentoTilt>
             <div className='grid h-[135vh] grid-cols-2 grid-rows-3 gap-7'>
                 <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2'>
+                    <a href = "https://github.com/jgtwenty3/InkItMobile">
                     <BentoCard
                     src = "videos/inkitdemo.mp4"
                     title = {<>i<b>n</b>k i<b>t</b></>}
                     description="An iOS app for tattoo artists to manage appointments, clients, reference images and more. "
 
                     />
+                    </a>
 
                 </BentoTilt>
                 <BentoTilt className='bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0'>
+                    <a href = "https://www.youtube.com/watch?v=qFGKoKrYJIs&t=12s">
                     <BentoCard
                     src = "videos/swish.mp4"
                     title = {<>swish s<b>o</b>cial</>}
                     description="A private social media site without the algorithms and ads."
                     />
+                    </a>
+                    
+                    
                 </BentoTilt>
                 <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
                 <BentoCard
@@ -109,9 +115,11 @@ const TechStack = () => {
                 </BentoTilt>
                 <BentoTilt className = "bento-tilt_2">
                     <div className="flex size-full flex-col justify-between bg-white p-5">
+                    <a href = "https://github.com/jgtwenty3">
                     <h1 className="bento-title special-font max-w-64 text-black">
                         M<b>o</b>re c<b>o</b>ming s<b>o</b><b>o</b>n.
                     </h1>
+                    </a>
                     <TiLocationArrow className="m-5 scale-[5] self-end" />
                     </div>
                 </BentoTilt>
