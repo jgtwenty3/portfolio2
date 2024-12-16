@@ -76,7 +76,7 @@ const TechStack = () => {
                     te<b>c</b>h st<b>a</b>ck
                     </>
                 }
-                description="I work with React, React Native, Python, NextJS, Flask, TypeScript, Tailwind, among other frameworks, libraries, and tools."
+                description="I work with React, React Native, Python, NextJS, Flask, TypeScript, and Tailwind among other frameworks, libraries, and tools."
             />
             </BentoTilt>
             <div className='grid h-[135vh] grid-cols-2 grid-rows-3 gap-7'>
@@ -85,7 +85,7 @@ const TechStack = () => {
                     <BentoCard
                     src = "videos/inkitdemo.mp4"
                     title = {<>i<b>n</b>k i<b>t</b></>}
-                    description="An iOS app for tattoo artists to manage appointments, clients, reference images and more. "
+                    description="An iOS app in progress for tattoo artists to manage appointments, clients, reference images and more. "
 
                     />
                     </a>
@@ -103,15 +103,18 @@ const TechStack = () => {
                     
                 </BentoTilt>
                 <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
+                <a href = "https://hyvid.vercel.app/">
                 <BentoCard
                     src="videos/feature-4.mp4"
                     title={
                     <>
-                        SCH<b>O</b>LA<b>R</b>A
+                        HY<b>V</b>I<b>D</b>
                     </>
                     }
-                    description="Education platform streamlining systems for admins, teachers, parents, and students."
+                    description="Video Chat application with multi-user capabilities."
                 />
+                </a>
+                
                 </BentoTilt>
                 <BentoTilt className = "bento-tilt_2">
                     <div className="flex size-full flex-col justify-between bg-white p-5">
