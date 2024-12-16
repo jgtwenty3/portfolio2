@@ -92,11 +92,11 @@ const TechStack = () => {
 
                 </BentoTilt>
                 <BentoTilt className='bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0'>
-                    <a href = "https://www.youtube.com/watch?v=qFGKoKrYJIs&t=12s">
+                    <a href = "https://swish-social-justins-projects-8f8b4c62.vercel.app/sign-in">
                     <BentoCard
                     src = "videos/swish.mp4"
                     title = {<>swish s<b>o</b>cial</>}
-                    description="A private social media site without the algorithms and ads."
+                    description="A private social media site without the algorithms and ads. There's a secret way to log in."
                     />
                     </a>
                     

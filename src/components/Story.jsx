@@ -70,16 +70,16 @@ const Story = () => {
             <div className="story-img-mask">
               <div className="story-img-content">
               <video 
-              ref={frameRef} 
-              onMouseMove={handleMouseMove}
-               onMouseLeave={handleMouseLeave} 
-               onMouseUp={handleMouseLeave} 
-               onMouseEnter={handleMouseLeave} 
-               src="/videos/robot.mp4" 
-               className="object-contain" 
-               autoPlay 
-               muted 
-               loop 
+                ref={frameRef} 
+                onMouseMove={handleMouseMove}
+                onMouseLeave={handleMouseLeave} 
+                onMouseUp={handleMouseLeave} 
+                onMouseEnter={handleMouseLeave} 
+                src="/videos/robot1.mp4" 
+                className="object-contain" 
+                autoPlay 
+                muted 
+                loop 
                
                />
               </div>
