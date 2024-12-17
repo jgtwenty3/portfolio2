@@ -72,7 +72,7 @@ const TechStack = () => {
                 </p>
                 <br/>
                 <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-                I prioritize client collaboration, communication, and consistency. I strive to write clean, optimized code. I'm ready to tackle exciting challenges aand build fast, accessible web solutions.
+                I prioritize client collaboration, communication, and consistency. I strive to write clean, optimized code. I'm ready to tackle exciting challenges and build fast, accessible web solutions.
                 </p>
 
                 </div>
