@@ -78,6 +78,7 @@ const TechStack = () => {
                     </>
                 }
                 description="I work with React, React Native, Python, NextJS, Flask, TypeScript, and Tailwind among other frameworks, libraries, and tools."
+                playsinline={true}
             />
             </BentoTilt>
             <div className='grid h-[135vh] grid-cols-2 grid-rows-3 gap-7'>
@@ -87,6 +88,7 @@ const TechStack = () => {
                     src = "videos/swish.mp4"
                     title = {<>swish s<b>o</b>cial</>}
                     description="A private social media site without the algorithms and ads. There's a secret way to log in. "
+                    playsinline={true}
 
                     />
                     </a>
@@ -98,6 +100,7 @@ const TechStack = () => {
                     src = "videos/codehub.mp4"
                     title = {<>c<b>o</b>dehub</>}
                     description="A code editor and snippet sharing SaaS platform."
+                    playsinline={true}
                     />
                     </a>
                     
@@ -113,6 +116,7 @@ const TechStack = () => {
                     </>
                     }
                     description="Video Chat application."
+                    playsinline={true}
                 />
                 </a>
                 
@@ -136,6 +140,7 @@ const TechStack = () => {
                         muted
                         autoPlay
                         className="size-full object-cover object-center"
+                        playsinline={true}
                     />
                 </BentoTilt>
                 </div>
