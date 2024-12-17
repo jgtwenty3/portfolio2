@@ -65,9 +65,19 @@ const TechStack = () => {
         <div className='container mx-auto px-3 md:px-10'>
             <div id = "tech stack"className='px-5 py-32'>
                 <p className = "font-circular-web text-lg text-blue-50"> WORKING WITH ME</p>
+                <div className='md:flex flex-row justify-between '>
+                
+                <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
+                I'm a full stack developer and web designer. I use modern frameworks like NextJs, GSAP, and ThreeJs to weave together amazing web and mobile experiences. I try to write clean, concise code. 
+                </p>
+                <br/>
                 <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
                 I prioritize client collaboration, communication, and consistency. I strive to write clean, optimized code. I'm ready to tackle exciting challenges aand build fast, accessible web solutions.
                 </p>
+
+                </div>
+                
+                
             </div>
             <BentoTilt className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
             <BentoCard
