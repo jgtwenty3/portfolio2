@@ -68,7 +68,7 @@ const TechStack = () => {
                 <div className='md:flex flex-row justify-between '>
                 
                 <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-                I'm a full stack developer and web designer. I use modern frameworks like NextJs, GSAP, and ThreeJs to weave together amazing web and mobile experiences. I try to write clean, concise code. 
+                I'm a full stack developer and web designer. I use modern frameworks like NextJs, GSAP, and ThreeJs to weave together amazing web and mobile experiences. Whether you need a website redesign or have an idea for a full blown product, I can help. 
                 </p>
                 <br/>
                 <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
