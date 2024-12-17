@@ -110,6 +110,7 @@ const Hero = () => {
                 className='size-64 origin-center scale-150 object-cover object-center'
                 onLoadedData={handleVideoLoad}
                 preload='auto'
+                playsinline={true}
               />
             </div>
           </div>
@@ -122,6 +123,7 @@ const Hero = () => {
             className='absolute-center invisible absolute z-20 size-64 object-cover object-center'
             onLoadedData={handleVideoLoad}
             preload='auto'
+            playsinline={true}
           />
           <video
             src={getVideoSrc(currentIndex === totalVideos - 1 ? 1 : currentIndex)}
@@ -131,6 +133,7 @@ const Hero = () => {
             className='absolute left-0 top-0 size-full object-cover object-center'
             onLoadedData={handleVideoLoad}
             preload='auto'
+            playsinline={true}
           />
         </div>
         <h1 className='special-font hero-heading absolute bottom-5 right-5 z-40 text-black md:text-white'>
