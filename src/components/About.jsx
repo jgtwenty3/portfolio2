@@ -28,7 +28,7 @@ const About = () => {
   })
   return (
     <div id = "about me" className='min-h-screen w-screen'>
-      <div className='relative mb-8 mt-36  flex flex-col items-center gap-5'>
+      <div className='relative mb-4 mt-36  flex flex-col items-center gap-5'>
         <h2 className='font-general text-sm md:text-[18px]'>
           hi
         </h2>
@@ -36,7 +36,8 @@ const About = () => {
         title = " w<b>e</b>lc<b>o</b>me t<b>o</b> my p<b>o</b>rtf<b>o</b>li<b>o</b>"
         containerClass={"mt-5 !text-black text-center"}/>
         
-        <div className='about-subtext px-4 md:px-0'>
+        <div className='about-subtext mt-2'>
+          
           <p>I'm a tech enthusiast with a passion for helping people.</p>
           <p>I work with modern frameworks such as Next JS, GSAP, and Three.js, weaving them into interactive experiences with user friendly interfaces. </p>
         </div>
