@@ -81,22 +81,22 @@ const TechStack = () => {
             </BentoTilt>
             <div className='grid h-[135vh] grid-cols-2 grid-rows-3 gap-7'>
                 <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2'>
-                    <a href = "https://github.com/jgtwenty3/InkItMobile">
+                    <a href = "https://swish-social-kftu.vercel.app">
                     <BentoCard
-                    src = "videos/inkitdemo.mp4"
-                    title = {<>i<b>n</b>k i<b>t</b></>}
-                    description="An iOS app in progress for tattoo artists to manage appointments, clients, reference images and more. "
+                    src = "videos/swish.mp4"
+                    title = {<>swish s<b>o</b>cial</>}
+                    description="A private social media site without the algorithms and ads. There's a secret way to log in. "
 
                     />
                     </a>
 
                 </BentoTilt>
                 <BentoTilt className='bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0'>
-                    <a href = "https://swish-social-justins-projects-8f8b4c62.vercel.app/sign-in">
+                    <a href = "https://codhub-ashen.vercel.app/">
                     <BentoCard
-                    src = "videos/swish.mp4"
-                    title = {<>swish s<b>o</b>cial</>}
-                    description="A private social media site without the algorithms and ads. There's a secret way to log in."
+                    src = "videos/codehub.mp4"
+                    title = {<>c<b>o</b>dehub</>}
+                    description="A code editor and snippet sharing SaaS platform."
                     />
                     </a>
                     
@@ -105,13 +105,13 @@ const TechStack = () => {
                 <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
                 <a href = "https://hyvid.vercel.app/">
                 <BentoCard
-                    src="videos/feature-4.mp4"
+                    src="videos/hyvid.mp4"
                     title={
                     <>
                         HY<b>V</b>I<b>D</b>
                     </>
                     }
-                    description="Video Chat application with multi-user capabilities."
+                    description="Video Chat application."
                 />
                 </a>
                 
